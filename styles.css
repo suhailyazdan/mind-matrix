@@ -125,11 +125,26 @@ body{
 /* - - - - - - association section ends - - - - - - */
 
 
-/* - - - - - - footer starts - - - - - - */
+/* - - - - - - contact-form starts - - - - - - */
 
+.form-heading{
+  background-color: #6DB0B8;
+  border-radius: 20px 0 20px 0; 
+}
+
+.contactBox{
+  background-color: #f2fcfd;
+  border: 1px solid #6DB0B8;
+  border-radius: 30px 0 30px 0;
+  color:#158592;
+}
+
+/* - - - - - - contact-form ends - - - - - - */
+
+
+/* - - - - - - footer starts - - - - - - */
 .footer{
   height: 300px;
   background: #6DB0B8;
 }
-
 /* - - - - - - footer ends - - - - - - */
