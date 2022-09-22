@@ -40,13 +40,17 @@
     </div>
   </nav>
 
-  <div class="container" style="margin-top:83px">
-    <section>
-      <img src="images/banner.jpg" class="img-fluid" />
-    </section>
+  <div class="container-fluid bg-custom-dark" style="margin-top: 83px">
+    <section class="text-center">
 
+        <img src="images/banner.jpg" class="banner-image img-fluid" />
+
+    </section>
+  </div>
+  
+  <div class="container mt-5">
     <!--section academic-track starts-->
-    <section class="academicTrack mt-5 py-5 border-top text-center">
+    <section class="academicTrack py-5 border-top text-center">
       <h2 class="mt-3 text-white text-bold">Academic Track</h2>
       <h4 class="text-white">Unique structure aligned to the Industry needs</h4>
       <div class="row mt-4">
@@ -279,80 +283,117 @@
       </div>
     </section>
     <!--section news ends-->
+  </div>
 
+
+  <div class="container-fluid">
     <!--section institutions starts-->
     <section class="bg-custom-light my-5 p-5">
-      <div>
-        <h2 class="text-center my-5 customTextColor">Institutions associated with us</h2>
-      </div>
-
       <div class="row g-0">
-        <div class="col-4">
-          <div class="associationBox mx-3 d-flex align-items-center justify-content-center">
-            <img src="images/logo-wipro.jpg" class="img-fluid" />
+        <div class="col-8 offset-2">
+          <div>
+            <h2 class="text-center my-5 customTextColor">Institutions associated with us</h2>
           </div>
-        </div>
 
-        <div class="col-4">
-          <div class="associationBox mx-3 d-flex align-items-center justify-content-center">
-            <img src="images/logo-salesforce.jpg" class="img-fluid" />
+          <div class="row g-0">
+            <div class="col-4">
+              <div class="associationBox mx-3 d-flex align-items-center justify-content-center">
+                <img src="images/logo-wipro.jpg" class="img-fluid" />
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="associationBox mx-3 d-flex align-items-center justify-content-center">
+                <img src="images/logo-salesforce.jpg" class="img-fluid" />
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="associationBox mx-3 d-flex align-items-center justify-content-center">
+                <img src="images/logo-IBM.jpg" class="img-fluid" />
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div class="col-4">
-          <div class="associationBox mx-3 d-flex align-items-center justify-content-center">
-            <img src="images/logo-IBM.jpg" class="img-fluid" />
-          </div>
-        </div>
-      </div>
+          <div class="row g-0 mt-5">
+            <div class="col-4">
+              <div class="associationBox mx-3 d-flex align-items-center justify-content-center">
+                <img src="images/logo-apple.jpg" class="img-fluid" />
+              </div>
+            </div>
 
-      <div class="row g-0 mt-5">
-        <div class="col-4">
-          <div class="associationBox mx-3 d-flex align-items-center justify-content-center">
-            <img src="images/logo-apple.jpg" class="img-fluid" />
-          </div>
-        </div>
+            <div class="col-4">
+              <div class="associationBox mx-3 d-flex align-items-center justify-content-center">
+                <img src="images/logo-windows.jpg" class="img-fluid" />
+              </div>
+            </div>
 
-        <div class="col-4">
-          <div class="associationBox mx-3 d-flex align-items-center justify-content-center">
-            <img src="images/logo-windows.jpg" class="img-fluid" />
-          </div>
-        </div>
-
-        <div class="col-4">
-          <div class="associationBox mx-3 d-flex align-items-center justify-content-center">
-            <img src="images/logo-accenture.jpg" class="img-fluid" />
+            <div class="col-4">
+              <div class="associationBox mx-3 d-flex align-items-center justify-content-center">
+                <img src="images/logo-accenture.jpg" class="img-fluid" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!--section institutions ends-->
+  </div>
 
+  <div class="container">
     <!--section contact-form starts-->
     <section class="form py-5">
       <div class="d-flex flex-column align-items-center justify-content-center">
-        <h2 class="form-heading w-50 py-3 text-center text-white">Join Our Course</h2>
+        <button class="custom-btn form-heading w-50 pt-3 pb-2 text-center text-white">
+          <h3>Join Our Course</h3>
+        </button>
         <h2 class="customTextColor mt-4">Contact Us</h2>
       </div>
 
-      <div class="row g-0 mt-3">
+      <div class="contact-us row g-0 mt-3">
         <div class="col-6">
           <div class="mx-4">
             <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Your Name</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                  </div>
+                </div>
+
+                <div class="col-12 mt-4">
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Your Email</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                  </div>
+                </div>
+
+                <div class="col-6 mt-4">
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Company</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                  </div>
+                </div>
+
+                <div class="col-6 mt-4">
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Phone</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                  </div>
+                </div>
+
+                <div class="col-12 mt-4">
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-text">With textarea</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>                  
+                  </div>
+                </div>
               </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+              
+              <div class="w-100 d-flex justify-content-end">
+                <button type="submit" class="custom-btn btn btn-primary mt-3 py-3 px-5">Submit</button>
               </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
         </div>
@@ -361,19 +402,52 @@
           <div class="mx-4">
             <div class="contactBox p-5">
               <h3 class="text-center">You can find us here</h3>
-            </div>
 
-            <div class="row g-0">
-              <div class="col-2">
-                343
+              <div class="row g-0">
+                <div class="col-2 offset-2">
+                  <div class="h-100 d-flex justify-content-center align-items-center" >
+                    <i class="bi-alarm" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+
+                <div class="col-8">
+                  <div class="h-100 d-flex align-items-center" >
+                    MindMatrix CLI House #149, </br> 
+                    14th Main, 4th Block, </br>
+                    Koramangala </br>
+                    Bangalore – 560 034 
+                  </div>
+                </div>
               </div>
 
-              <div>
-                <svg class="bi" width="32" height="32" fill="currentColor">
-                  <use xlink:href="bootstrap-icons.svg#heart-fill"/>
-                </svg>                
+              <div class="row g-0 mt-4">
+                <div class="col-2 offset-2">
+                  <div class="h-100 d-flex justify-content-center align-items-center" >
+                    <i class="bi-alarm" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+
+                <div class="col-8">
+                  <div class="h-100 d-flex align-items-center">
+                    +91-80-41216877
+                  </div>
+                </div>
               </div>
-            </div>
+
+              <div class="row g-0 mt-4">
+                <div class="col-2 offset-2">
+                  <div class="h-100 d-flex justify-content-center align-items-center">
+                    <i class="bi-alarm" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+
+                <div class="col-8">
+                  <div class="h-100 d-flex align-items-center">
+                    contact@mindmatrix.io
+                  </div>
+                </div>
+              </div>
+            </div>            
           </div>
         </div>
       </div>
@@ -382,9 +456,46 @@
   </div>
 
   <!--footer starts-->
-    <section class="footer">
-      <div>
+    <section class="footer p-5">
+      <div class="border-bottom pb-5">
+        <div class="row">
+          <div class="col-9">
+            <div class="d-flex">
+              <div class="logo-box d-flex justify-content-center me-3 px-5 pb-4">
+                <img src="images/Logo.svg" class="company-logo" />
+              </div>
 
+              <div class="footer-info-box d-flex flex-column justify-content-between w-100 p-4">
+                We make it happen for you
+
+                <div class="social-menu">
+                  <ul>
+                    <li><a href="#">ic</a></li>
+                    <li><a href="#">ic</a></li>
+                    <li><a href="#">ic</a></li>
+                    <li><a href="#">ic</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <h5 class="text-end text-white">Quick Links</h5>
+            <div class="footer-links">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Lead Forum</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-text mt-4">
+        sdfsdfsdfsdf
       </div>
     </section>
   <!--footer ends-->
