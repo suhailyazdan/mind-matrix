@@ -15,6 +15,15 @@ body{
   background-color: #6DB0B8;
 }
 
+.custom-link{
+  color:#fff;
+  font-size: bold;
+}
+
+.custom-link:hover{
+  color:#06444b;
+}
+
 .navbar .nav-link-custom{
   background-color: #fff;
   padding: 10px 30px;
@@ -66,6 +75,11 @@ body{
   background-color: #ddf8fa;
 }
 
+.at-heading{
+  color:#6DB0B8;
+  width: 100px;
+}
+
 .py-20px{
   padding-top: 90px;
   padding-bottom: 90px;
@@ -75,7 +89,7 @@ body{
 
 .services .service-box-tlbr{
   display:block;
-  background-color: #DCEDEF;
+  background-color: #F2FCFD;
   border: 1px solid #158592;
   border-radius: 30px 0 30px 0;
   color: #158592;
@@ -215,9 +229,14 @@ body{
 }
 
 .social-menu ul li a{
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
-  background-color: red;
+  padding-top: 16px;
+  background-color: #ffffff;
+  border: 1px solid #158592;
+  color: #158592;
   width: 50px;
   height: 50px;
   border-radius: 15px 0;

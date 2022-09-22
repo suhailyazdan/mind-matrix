@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="99.994781"
+   height="100"
+   viewBox="0 0 99.994784 100"
+   fill="none"
+   version="1.1"
+   id="svg222"
+   sodipodi:docname="Mind Matrixac-track-icons.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs226" />
+  <sodipodi:namedview
+     id="namedview224"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.5548847"
+     inkscape:cx="213.19909"
+     inkscape:cy="98.399581"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg222" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 99.99481,49.897617 c 0,5.875193 -1.00934,11.513394 -2.86276,16.751386 L 72.58345,52.445405 c 0.0925,-0.836791 0.14033,-1.686062 0.14033,-2.547788 0,-11.017569 -7.80762,-20.2077 -18.18068,-22.317865 V -2.3805237e-8 C 80.02516,2.301436 99.99481,23.76275 99.99481,49.897617 Z M 49.9974,99.999994 c 18.50501,0 34.66181,-10.073691 43.30725,-25.047546 L 69.68223,61.286262 C 65.75296,68.091808 58.40896,72.6718 49.9974,72.6718 c -8.46976,0 -15.85742,-4.643394 -19.7659,-11.527941 L 6.6090895,74.811072 C 15.23478,89.862889 31.43419,99.999994 49.9974,99.999994 Z M 2.8076695,66.49204 C 0.98854952,61.298742 -4.8047843e-7,55.713556 -4.8047843e-7,49.897617 -4.8047843e-7,23.76275 19.96965,2.301436 45.45172,-2.3805228e-8 V 27.579752 c -10.37308,2.110165 -18.18068,11.300296 -18.18068,22.317865 0,0.800404 0.0416,1.591449 0.12161,2.370037 z"
+     fill="#6db0b8"
+     id="path220"
+     style="stroke-width:1" />
+</svg>
